@@ -7,8 +7,8 @@ Meteor.startup(() => {
       password: "123456",
 
       profile: {
-        name: "admin",
-        name: "green",
+        firstName: "admin",
+        lastName: "green",
         role: "admin",
       },
     });

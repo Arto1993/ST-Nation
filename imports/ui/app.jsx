@@ -1,11 +1,11 @@
 import React from "react";
 import { ThemeProvider, createTheme } from "@material-ui/core/styles";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { theme } from "./theme/theme";
+import theme from "./theme/theme";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import PrivateRout from "./routes/PrivateRout";
 // import { Process } from "./process/process";
-import LoginForm from "./loginForm/Login";
+import LoginForm from "./containers/LoginPage/Login";
 
 function App() {
   const whiteMod = createTheme(theme);

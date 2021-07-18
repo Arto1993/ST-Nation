@@ -63,9 +63,9 @@ const theme = createTheme({
     },
 
     subtitle2: {
-      fontFamily: "Overlock SC",
+      fontFamily: "Open Sans",
       color: textColor,
-      fontSize: "110%",
+      fontSize: "42px",
       fontWeight: 400,
       lineHeight: "normal",
       letterSpacing: "normal",
@@ -87,14 +87,10 @@ const theme = createTheme({
     h3: {
       fontFamily: "Open Sans",
       color: textColor,
-      fontWeight: 300,
-      fontSize: "140%",
+      fontWeight: 600,
+      fontSize: "60px",
       lineHeight: "normal",
       letterSpacing: "normal",
-      "@media (max-width:600px)": {
-        margin: 0,
-        fontSize: "80%",
-      },
     },
 
     h4: {
@@ -128,4 +124,4 @@ const theme = createTheme({
   },
 });
 
-export { theme };
+export default theme;
